@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header class="absolute inset-x-0 top-0 z-50">
+        <nav class="flex items-center justify-between p-6 lg:px-8 gap-8" aria-label="Global">
+            <div class="flex flex-row ">
+                <div class="flex lg:flex-1 order-last px-2">
+                    <a href="index.html" class="-m-1.5 p-1.5">
+                        <span class="sr-only">Vibra Project</span>
+                        <img class="h-12 w-auto rounded-full" src="img/icon.png" alt="">
+                    </a>
+                </div>
+                <div class="flex lg:hidden">
+                    <button data-drawer-target="drawer-example" data-drawer-show="drawer-example" type="button"
+                        class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="hidden lg:flex lg:gap-x-12 flex flex-row lg:justify-center ">
+                <a href="about.html" class="text-sm font-semibold leading-6 text-gray-900">About Me</a>
+                <a href="skills.html" class="text-sm font-semibold leading-6 text-gray-900">Skills</a>
+                <a href="company.html" class="text-sm font-semibold leading-6 text-gray-900">Company</a>
+                <a href="contact.html" class="text-sm font-semibold leading-6 text-gray-900">Contact Us</a>
+            </div>
+
+        </nav>
+
+        <div class="lg:hidden" role="dialog" aria-modal="true">
+
+
+            <div id="drawer-example"
+                class="fixed inset-y-0  right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <div class="flex items-center justify-between">
+                    <a href="#" class="-m-1.5 p-1.5">
+                        <span class="sr-only">Vibra Project</span>
+                        <img class="h-8 w-auto" src="img/icon.png" alt="">
+                    </a>
+                    <button type="button" data-drawer-hide="drawer-example"
+                        class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                        <span class="sr-only">Close menu</span>
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="mt-6 flow-root">
+                    <div class="-my-6 divide-y divide-gray-500/10">
+                        <div class="space-y-2 py-6">
+                            <a href="#"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">About
+                                Me</a>
+                            <a href="#"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Skills</a>
+                            <a href="#"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
+                            <a href="#"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact
+                                Us</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="particles-js">
+    <section class="relative isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+        <div
+            class="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20">
+        </div>
+        <video src=" muted autoplay class="absolute left-0" style=" opacity: 20% ;z-index: -1;"></video>
+        <div class="mx-auto max-w-2xl lg:max-w-4xl z-50">
+            <img class="mx-auto h-12 rounded-full" src="img/icon.png" alt="">
+            <figure class="mt-10">
+                <blockquote class="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+                    <p>“I love how the future progressed, and so i must to. we're aiming to give customer a great
+                        satisfaction to our business.”</p>
+                </blockquote>
+                <figcaption class="mt-10">
+                    <img class="mx-auto h-10 w-10 rounded-full" src="img/IMG_9648crop.jpg" alt="">
+                    <div class="mt-4 flex items-center justify-center space-x-3 text-base">
+                        <div class="font-semibold text-gray-900">Achmad Arditio Sumartono</div>
+                        <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="fill-gray-900">
+                            <circle cx="1" cy="1" r="1" />
+                        </svg>
+                        <div class="text-gray-600">Founder of VIBRA PROJECT</div>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    
+
+    <script src="particles.js"></script>
+</body>
+
+</html>
